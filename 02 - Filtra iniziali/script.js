@@ -2,13 +2,11 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-// come stampare solo le stringa?
-
 // Dichiara la funzione qui.
 function letterFinder(letter) {
 
     for (i = 0; i < names.length; i++) {
-        let result = Array.from(letter);
+        let result = [];
         
         if (names[i].charAt(0) === letter) {
             result.push(names[i]);
