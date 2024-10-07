@@ -2,15 +2,15 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-// come cercare la prima lettera?
-// .charAt()
-// .substring(), con sottrazione
+// come dare il risultato in un nuovo array?
+// array.from()?
 
 // Dichiara la funzione qui.
 function initialLetter(array) {
     for (i = 0; i < array.length; i++) {
         let string = array[i].charAt(0);
-        console.log(string);
+        let initial = Array.from(string);
+        console.log(initial);
     }
 }
 
