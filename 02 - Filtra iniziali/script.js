@@ -2,8 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-// metodo: needle e haystack?
-// .charAt()
+// come stampare solo le stringa?
 
 // Dichiara la funzione qui.
 function letterFinder(letter) {
