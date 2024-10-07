@@ -10,14 +10,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function initialLetter(array) {
     for (i = 0; i < array.length; i++) {
         let string = array[i].charAt(0);
-        return string;
+        console.log(string);
     }
 }
-console.log(initialLetter(names));
-
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+initialLetter(names);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
