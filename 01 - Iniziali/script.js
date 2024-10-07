@@ -2,11 +2,6 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-// metodi:
-// split
-// for loop?
-// bisogna prendere ogni stringa (in un for loop), usare .split() per dividerla in singole lettere e prendere solo la prima (forse con break?)
-
 // come cercare la prima lettera?
 // .charAt()
 // .substring(), con sottrazione
@@ -14,7 +9,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 function initialLetter(array) {
     for (i = 0; i < array.length; i++) {
-        let string = array[i].split('');
+        let string = array[i].charAt(0);
         return string;
     }
 }
