@@ -9,8 +9,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function initialLetter(word) {
-    let initial = word.split('');
-    return initial;
+    let letters = word.split('');
+    return letters;
 }
 console.log(initialLetter('Anna'));
 
