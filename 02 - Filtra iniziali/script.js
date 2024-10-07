@@ -3,22 +3,22 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // metodo: needle e haystack?
-// .includes()
+// .charAt()
 
 // Dichiara la funzione qui.
-let result = 'a';
+function letterFinder(letter) {
 
-function findName(haystack, needle) {
-    for (i = 0; i < haystack.length; i++) {
-        needle = haystack[i];
-
-        if (needle = needle.includes(result)) {
-            return true;
+    for (i = 0; i < names.length; i++) {
+        let result = Array.from(letter);
+        
+        if (names[i].charAt(0) === letter) {
+            result.push(names[i]);
         }
-        return false;
+        console.log(result);
     }
 }
+
 // Invoca la funzione qui e stampa il risultato in console
-console.log(findName(names, result));
+letterFinder('A');
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
