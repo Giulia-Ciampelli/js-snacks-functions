@@ -2,6 +2,8 @@
 
 const word = 'javascript';
 
+// metodi
+// .includes(a e i o u)
 
 // Dichiara la funzione qui.
 
