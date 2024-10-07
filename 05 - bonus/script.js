@@ -9,10 +9,16 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function helloPerson() {
+    // creazione varianti che prendono l'ora
+    let now = new Date;
+    let hour = now.getHours();
+    return `ciao ${name}`;
 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(helloPerson());
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
