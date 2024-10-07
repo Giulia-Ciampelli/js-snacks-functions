@@ -5,6 +5,7 @@ const word = 'javascript';
 // metodi
 // .includes(a e i o u)
 // conto dentro il conto
+// metodo trovato per esercizio precedente: crea nuovo array per memorizzare le vocali trovate
 
 // Dichiara la funzione qui.
 function vowelCount(word) {
@@ -17,7 +18,8 @@ function vowelCount(word) {
             count++;
         }
     }
-    // verifica se le vocali corrispondono all'array di vowel (con match?)
+    // verifica se le vocali corrispondono al nuovo array
+    if ()
 
     // stampa il risultato
     console.log(count);
