@@ -2,27 +2,23 @@
 
 const word = 'javascript';
 
-// metodi
-// .includes(a e i o u)
-// conto dentro il conto
-// metodo trovato per esercizio precedente: crea nuovo array per memorizzare le vocali trovate
-
 // Dichiara la funzione qui.
 function vowelCount(word) {
-    // crea variabile che abbia le parti da cercare (vocali)
+    // variabile con parti da cercare (vocali)
     let vowel = ['a', 'e', 'i', 'o', 'u'];
+    // creazione nuovo conto
     let count = 0;
-    // cerca metodo per verificare che le parti da cercare corrispondano
+    // creazione nuovo array per memorizzare le vocali trovate
+    let vowelFound = [];
+    // loop for per verificare in tutta la stringa di word
     for (i = 0; i < word.length; i++) {
-        if (vowel.includes(word[i])){
+        // if statement per verificare se incrementare il conto e cosa stampare nel nuovo array
+        if (vowel.includes(word[i])) {
             count++;
+            vowelFound.push(word[i]);
         }
     }
-    // verifica se le vocali corrispondono al nuovo array
-    if ()
-
-    // stampa il risultato
-    console.log(count);
+    console.log(`${count} (${vowelFound})`);
 }
 
 // Invoca la funzione qui e stampa il risultato in console
