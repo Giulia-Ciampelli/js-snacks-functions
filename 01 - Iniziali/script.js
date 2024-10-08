@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function initialLetter(array) {
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         let string = array[i].charAt(0);
         let initial = Array.from(string);
         console.log(initial);

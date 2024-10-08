@@ -11,7 +11,7 @@ function vowelCount(word) {
     // creazione nuovo array per memorizzare le vocali trovate
     let vowelFound = [];
     // loop for per verificare in tutta la stringa di word
-    for (i = 0; i < word.length; i++) {
+    for (let i = 0; i < word.length; i++) {
         // if statement per verificare se incrementare il conto e cosa stampare nel nuovo array
         if (vowel.includes(word[i])) {
             count++;

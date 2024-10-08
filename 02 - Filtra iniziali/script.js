@@ -5,7 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // Dichiara la funzione qui.
 function letterFinder(letter) {
 
-    for (i = 0; i < names.length; i++) {
+    for (let i = 0; i < names.length; i++) {
         let result = [];
         
         if (names[i].charAt(0) === letter) {
