@@ -18,10 +18,10 @@ function vowelCount(word) {
             vowelFound.push(word[i]);
         }
     }
-    console.log(`${count} (${vowelFound})`);
+    return `${count} (${vowelFound})`;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-vowelCount(word);
+console.log(vowelCount(word));
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
