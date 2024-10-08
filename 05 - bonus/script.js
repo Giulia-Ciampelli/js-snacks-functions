@@ -18,7 +18,7 @@ function helloPerson() {
     if (hour <= 13) {
         return `Buongiorno ${name}`;
     }
-    else if(hour >= 18) {
+    else if (hour >= 18) {
         return `Buonasera ${name}`;
     }
     else {
