@@ -13,18 +13,20 @@ function helloPerson() {
     // creazione varianti che prendono l'ora
     let now = new Date;
     let hour = now.getHours();
+    // creazione di variabile di appoggio per evitare return multipli e rendere il codice più modificabile
+    let greeting;
 
     // creazione if statement per verificare l'ora
     if (hour <= 13) {
-        return `Buongiorno ${name}`;
+        greeting = `Buongiorno ${name}`;
     }
     else if (hour >= 18) {
-        return `Buonasera ${name}`;
+        greeting = `Buonasera ${name}`;
     }
     else {
-        return `Buon pomeriggio ${name}`;
+        greeting = `Buon pomeriggio ${name}`;
     }
-
+    return `${greeting}`;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
